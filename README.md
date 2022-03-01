@@ -5,4 +5,4 @@ The official assignment is in the root directory.
 
 The AS1 folder contains the notebooks of each part and some of useful materials.
 
-The contribution.md contains our declaration.
+The contributing.md contains our declaration.
