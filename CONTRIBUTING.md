@@ -5,8 +5,7 @@
 |---|---|---|
 |Espen Sivertsen|Part1|
 |Lim Seunghwan|Part2|*Collated the final assignment notebook
-|Zou Qiuyang|Part3 (Excluding the last exercise)|
-|||* Co-collated the final assignment notebook
+|Zou Qiuyang|Part3 (Excluding the last exercise)|* Co-collated the final assignment notebook
 
 ---
 **ASSIGNMENT Ⅰ**
