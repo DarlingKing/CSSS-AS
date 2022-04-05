@@ -1,13 +1,15 @@
 # Declaration
+
+**ASSIGNMENT Ⅱ**
 |Name|Main Task|Notes |
 |---|---|---|
 |Espen Sivertsen|Part1|
-|Lim Seunghwan|Part2|
-|Zou Qiuyang|Part3| *Excluding the last exercise
-
-*Lim and Zou Collated the final assignment notebook
+|Lim Seunghwan|Part2|*Collated the final assignment notebook
+|Zou Qiuyang|Part3 (Excluding the last exercise)|
+|||* Co-collated the final assignment notebook
 
 ---
+**ASSIGNMENT Ⅰ**
 
 |Name|Main Task|Contributions|
 |---|---|---|
