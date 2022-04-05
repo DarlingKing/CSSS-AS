@@ -1,4 +1,12 @@
 # Declaration
+|Name|Main Task|Notes |
+|---|---|---|
+|Espen Sivertsen|Part1|
+|Lim Seunghwan|Part2|
+|Zou Qiuyang|Part3| *Excluding the last exercise
+
+------
+
 |Name|Main Task|Contributions|
 |---|---|---|
 |Zou Qiuyang|Part1/Part3|* Organised group meeting on 23th|
