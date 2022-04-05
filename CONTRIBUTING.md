@@ -5,7 +5,9 @@
 |Lim Seunghwan|Part2|
 |Zou Qiuyang|Part3| *Excluding the last exercise
 
-------
+*Lim and Zou Collated the final assignment notebook
+
+---
 
 |Name|Main Task|Contributions|
 |---|---|---|
