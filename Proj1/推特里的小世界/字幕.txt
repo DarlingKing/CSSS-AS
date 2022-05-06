@@ -1,0 +1,87 @@
+In 1929, the Hungarian writer Frigyes Karinthy wrote in his short story CHAINS that a person tries to reach a designated person he doesn't know through no more than five intermediaries, which is the origin of six degrees of separation.
+1929年，匈牙利作家Frigyes Karinthy在短篇小说锁链中写道，一个人试图通过不超过五个的中间人来联系一个指定的陌生人，这便是六度分隔理论的起源。
+
+In the Small-world experiment 1960s, Stanley Milgram and other researchers examining the average path length for social networks of people in the United States is around 6.
+在二十世纪六十年代的小世界实验中，Stanley Milgram和其他研究者们检定美国人均社交网络路径长度为六。
+However, the experiment was not completely randomized and idealized.
+然而，这一实验的设定不够随机又不够理想。
+
+It was not until 1998 that Duncan Watts and Steven Strogatz published the first network model on the small-world phenomenon.
+直到1998年，Duncan Watts和Steven Strogatz才发表了关于小世界现象的第一个网络模型。
+And this mathematical model has since been applied in a wide range of different areas.
+而这个数学模型后来也被广泛地应用于不同的领域。
+
+Today, it is much easier to test the model with social network datasets.
+如今，用社交网络数据集来测试该模型就容易多了。
+
+We seek to validate the small-world network properties of Twitter by analysing datasets from the its network from a network science perspective.
+我们试图从网络科学出发，通过对推特网络的数据集进行分析，验证推特的小世界网络属性。
+【视频内容要科学,列举属性】
+
+This will allow us design a simple recommendation algorithm that exploits the features of the small-world network to uncover more possibilities, like people you might know.
+从而利用小世界网络的特性，设计一种简单的推荐算法，来挖掘更多的可能性，比如可能认识的人。
+
+Futuremore, we can implement more valuable features based on that great piece, THE STRENGTH OF WEEK TIES.
+进一步来说，我们可以根据那篇大名鼎鼎的弱联系的力量实现更多有价值的功能。
+
+----
+【变白】
+
+So, how will we begin our work?
+那么，我们将如何开始我们的工作？
+
+First we need to download the dataset for this analysis. Thanks to the work of Hubert Wassner, we can download it directly from the Kaggle website.
+首先我们需要下载本次所需数据集。感谢Hubert Wassner的成果，我们可以直接从Kaggle网站下载。
+
+This dataset is over 400MB and contains more than 40,000 rows of data, including 10 columns of information such as users ID and followers ID
+这个数据集有400多兆，囊括了四万余行数据，包含用户ID，粉丝ID等10列信息
+
+
+They are selected because they tweeted on Twitter trending topics.  In order to filter out spam and non-informative accounts, the founder had selected users that have at least 100 followers and followings.
+这些用户被选中是因为他们在推特热门话题里发了推。 为了过滤掉广告和低质账户，创建者将至少拥有100个粉丝和关注的用户筛选出来。
+
+Next is Data Preprocessing
+接下来我们需要进行数据的预处理
+
+What we should do is to change the data format to some useful dictionaries. We will use several dictionary for further uses:
+我们应该做的是将数据格式改为一些有用的字典。我们在之后应该就要用到这些字典了。
+///
+user_friends: A user and his friends. 
+user_tags: A user and his used tags
+tag_users: A tag and its corresponding users. 
+///
+
+Then we need to build relevant networks.
+然后是建立相关的网络。
+
+We intend to construct a directed graph A with User IDs as points and the connection list of follower IDs as edges.
+我们打算以用户ID为点，和粉丝ID的链接为边，构筑有向图A
+Next, keep the interrelated edges and construct the undirected graph B.
+下一步，保留互关的边，构筑无向图B
+【动画构图】
+In the analysis of the network, we believe that operations such as computing degrees and clustering are necessary and helpful.
+在对网络的分析中，我们认为计算degree、聚类等操作是必要且有帮助的
+
+More important is the analysis of the strong and weak ties, and we initially propose this division.
+比较重要的是对强弱ties的分析，我们初步提出了这个划分方式
+【动画显示】
+
+As for undirected graph B, we might be able to find those CONNECTORS, people who has large networks of contacts and friends
+而对于无向图B来说，我们或许可以找到那些社牛，那些人脉很广，朋友圈很大的人。
+
+That's all we have for today, and we hope you all have a good result!
+这便是我们今天的内容了，希望大家都有一个好的成果！
+
+
+
+35s
+
+
+
+
+
+
+
+
+
+
